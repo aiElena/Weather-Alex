@@ -3,7 +3,6 @@ $url = "http://api.openweathermap.org/data/2.5/weather?id=706483&lang=en&units=m
 $contents = file_get_contents($url);
 
 echo ($contents);
-
 ?>
 
 
