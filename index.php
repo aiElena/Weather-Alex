@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>Погода</title>
+		<title>html 5</title>
 		<link href="css/style.css" rel="stylesheet">	
 	</head>
 	<body>
@@ -37,6 +36,11 @@ echo ($contents2);
 
 
 ?>
-
+<hr>
+<?php
+  $a = "id";
+  foreach ( $GLOBALS as $key=>$value )
+    echo "\$GLOBALS[\"$key\"] == $value<br>";
+?>
 	</body>
 </html>
