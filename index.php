@@ -9,7 +9,7 @@
 	<body>
 		<h1>Список</h1>
 		<select id="selecttheme">
-			<option value="706483">Харьков</option> 
+			<option value="706483">Харьков</option>
 			<option value="703448">Киев</option>
 			<option value="688533">Ялта</option>		 
 		</select>
@@ -26,6 +26,15 @@ $url2 = "http://api.openweathermap.org/data/2.5/weather?id=688533&lang=en&units=
 $contents = file_get_contents($url);
 $contents1 = file_get_contents($url1);
 $contents2 = file_get_contents($url2);
+
+if ('value' == '706483') {
+    echo ($contents);
+} elseif ('value' == '703448') {
+    echo ($contents1);
+} else {
+    echo "a меньше, чем b";
+}
+
 echo ($contents);
 echo '<br>';
 echo '<br>';
