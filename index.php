@@ -45,11 +45,7 @@ echo ($contents2);
 
 
 ?>
-<hr>
-<?php
-  $a = "id";
-  foreach ( $GLOBALS as $key=>$value )
-    echo "\$GLOBALS[\"$key\"] == $value<br>";
-?>
+
+
 	</body>
 </html>
