@@ -5,3 +5,9 @@ h1{
 	margin: 30px;
 	text-align: center;
 }
+
+#map_canvas{
+	text-align: center;
+	margin: 20px;
+	background: #ccc;
+}
