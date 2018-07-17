@@ -22,7 +22,7 @@
 		</section>
 <?php
 
-include 'D:\OpenServer\domains\Alex-Weather\config.php';
+include 'D:\OpenServer\domains\Alex-Weather\function.php';
 echo $password;
 ?>		
 		<div id="map_canvas">
